@@ -41,7 +41,7 @@ void IRAM_ATTR isrAB() {
 }
 
 
-void IRAM_ATTR isrSWAll() {
+void IRAM_ATTR isrSWAll() {0
 
  portENTER_CRITICAL_ISR(&gpioMux);
  swValue++;
